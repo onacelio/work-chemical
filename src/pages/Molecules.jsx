@@ -1,23 +1,14 @@
 import { useState, useEffect } from "react";
 import MoleculeCard from "../components/MoleculeCard";
 
-const moleculesURL = import.meta.env.VITE_API;
+const moleculesURL = "https://work-chemical-backend.vercel.app/molecules/";
 
 const Molecules = () => {
   const [molecules, setMolecules] = useState([])
-  const getMolecules = (url) => {
-    fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then((resp) => resp.json())
-    .then((data) => {
-      const shuffledMolecules = data.sort(() => Math.random() - 0.5)
-      const selectedMolecules = shuffledMolecules.slice(0, 21)
-      setMolecules(selectedMolecules)
-    })
-    .catch((error) => console.log(error))
+  const getMolecules = async (url) => {
+    const res = await fetch(url);
+    const data = await res.json();
+    setMolecules(data);
   }
 
   useEffect(() => {
