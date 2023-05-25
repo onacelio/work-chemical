@@ -1,0 +1,26 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom' 
+
+import App from './App.jsx'
+import Home from './pages/Home.jsx'
+import Molecules from './pages/Molecules.jsx'
+import Molecule from './pages/Molecule.jsx'
+import Search from './pages/Search.jsx'
+
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<App />}>
+          <Route path="/" element={<Home />} />
+          <Route path="molecules" element={<Molecules />} />
+          <Route path="molecule/:id" element={<Molecule />} />
+          <Route path="search" element={<Search />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+)
