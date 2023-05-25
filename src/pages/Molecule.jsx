@@ -7,17 +7,10 @@ const Molecule = () => {
   const { id } = useParams()
   const [molecule, setMolecule] = useState(null)
 
-  const getMolecule = (url) => {
-    fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then((resp) => resp.json())
-    .then((data) => {
-      setMolecule(data)
-    })
-    .catch((error) => console.log(error))
+  const getMolecule = async (url) => {
+    const res = await fetch(url);
+    const data = await res.json();
+    setMolecule(data);
   }
 
   useEffect(() => {
