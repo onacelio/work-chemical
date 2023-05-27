@@ -207,15 +207,6 @@
       "classe": "Alceno"
     },
     {
-      "name": "hepteno",
-      "iframe": "https://embed.molview.org/v1/?mode=balls&cid=11610",
-      "img": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/png?record_type=2d&smiles=C%3DCCCCCC&image_size=300x300",
-      "dad": "1 - Solvente: O hepteno pode ser utilizado como solvente em diferentes setores, incluindo indústria química, farmacêutica e de tintas. Como solvente, o hepteno é capaz de dissolver substâncias que são insolúveis em água, permitindo a fabricação de produtos químicos, medicamentos e tintas. 2 - Componente de combustíveis: O hepteno pode ser usado como um componente de combustíveis, como gasolina ou diesel. Quando adicionado a esses combustíveis, ele contribui para suas propriedades de ignição, estabilidade e desempenho.",
-      "formula": "C7H14",
-      "id": 25,
-      "classe": "Alceno"
-    },
-    {
       "name": "octeno",
       "iframe": "https://embed.molview.org/v1/?mode=balls&cid=8125",
       "img": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/8125/png?record_type=2d&image_size=300x300",
