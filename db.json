@@ -625,15 +625,6 @@
       "formula": "C4H6",
       "id": 81,
       "classe": "Dieno"
-    },
-    {
-      "name": "hepta-2-ino",
-      "iframe": "https://embed.molview.org/v1/?mode=balls&cid=14245",
-      "img": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/png?record_type=2d&smiles=CC%23CCCCC&image_size=300x300",
-      "dad": "Solvente industrial: Alguns hidrocarbonetos alquínicos, como o hept-1-eno e o hept-2-eno, são usados como solventes industriais em diferentes processos de produção, como na indústria química e farmacêutica. Eles podem ser usados para dissolver, diluir ou extrair substâncias em vários processos de fabricação.",
-      "formula": "C7H12",
-      "id": 82,
-      "classe": "Alquino"
     }
   ]
 }
